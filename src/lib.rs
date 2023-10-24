@@ -270,6 +270,7 @@ pub struct ThemeSet {
     pub dark: ThemeCustom,
     pub custom: ThemeCustom
 }
+#[derive(Debug, Clone)]
 pub enum SelectedTheme {
     Light,
     Dark,
